@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <title> Facebook</title>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width-device-width, initial-scale=1"/>
+                   
+         </head>
+         <style>
+            
+           html, body {
+                    background-color: silver;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 40px;
+                                                                           
+            }
+
+            form {
+                background-color: white;
+                border: 1px solid;
+                border-radius: 5px;
+                border-top: 1px solid #dadde1;
+                box-sizing: border-box;
+                position: relative;
+                width: 432px;
+                font-size: 12px;
+                border-style: none;
+                flex-direction: column;
+                padding: 1rem;
+                letter-spacing: normal;
+                word-spacing: normal;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                text-align: start;
+                font-family: Arial, Helvetica, sans-serif;
+            
+                                                               
+            }
+         
+            p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-size: 12px;
+            margin-bottom: 0px;
+           }
+         
+        input {
+            border: 1px solid #ccd0d5;
+            border-radius: 5px;
+            margin: 0;
+            background: transparent;
+            margin-bottom: 10px;
+            border-color: #ccd0d5;
+            
+        }
+        
+         </style>
+        <body>
+            <form>
+                <strong> <h1 style="font-size: 32px; margin-bottom: 0; line-height: 38px; font-weight: 600;"> Sign Up </h1><br></strong>It's quick and easy. <br>  <hr> <br>    
+                <input type="text" class="text" name="name" placeholder="First name" style="width: 180px; height: 30px; background-color: #ccd0d5; border-radius: 5px; border-style: solid; " />
+                    <input type="text" class="text" name="name" placeholder="Surname" style="width: 180px; height: 30px; background-color: #ccd0d5;  border-radius: 5px; border-style: solid;" /><br>
+                <input type="text" class="text" placeholder="Mobile number or email address" style="width: 400px; height: 30px; background-color: #ccd0d5;  border-radius: 5px; border-style: solid; " ><br>
+                <input type="text" class="psw" name="password" placeholder="New password" style="width: 400px; height: 30px; background-color: #ccd0d5;  border-radius: 5px; border-style: solid; "><br>
+                <label for="Date of birth"> Date of birth ? <br>
+                    <select name="Day" id="Day" style="width: 120px; height: 30px;">
+                        <option value="number">1</option>
+                        <option value="number">2</option>
+                        <option value="number">3</option>
+                        <option value="number">4</option>
+                        <option value="number">5</option>
+                        <option value="number">6</option>
+                        <option value="number">7</option>
+                        <option value="number">8</option>
+                        <option value="number">9</option>
+                        <option value="number">10</option>
+                        <option value="number">11</option>
+                        <option value="number">12</option>
+                        <option value="number">13</option>
+                        <option value="number">14</option>
+                        <option value="number">15</option>
+                        <option value="number">16</option> 
+                        <option value="number">17</option>
+                        <option value="number">18</option>
+                        <option value="number">19</option>
+                        <option value="number">20</option>
+                        <option value="number">21</option>
+                        <option value="number">22</option>
+                        <option value="number">23</option>
+                        <option value="number">24</option>
+                        <option value="number">25</option>
+                        <option value="number">26</option>
+                        <option value="number">27</option>
+                        <option value="number">28</option>
+                        <option value="number">29</option>
+                        <option value="number">30</option>
+                        <option value="number">31</option>
+                    </select>   
+                
+                <select name="month" id="month"  style="width: 120px; height: 30px;">
+                    <option value="text">Jan</option>
+                    <option value="text">Feb</option>
+                    <option value="text">Mar</option>
+                    <option value="text">Apr</option>
+                    <option value="text">May</option>
+                    <option value="text">Jun</option>
+                    <option value="text">Jul</option>
+                    <option value="text">Aug</option>
+                    <option value="text">Sep</option>
+                    <option value="text">Oct</option>
+                    <option value="text">Nov</option>
+                    <option value="text">Dec</option>
+                </select>
+                <select name="Year" id="Year"  style="width: 120px; height: 30px;">
+                    <option value="number">2023</option>
+                    <option value="number">2022</option>
+                    <option value="number">2021</option>
+                    <option value="number">2020</option>
+                    <option value="number">2019</option>
+                    <option value="number">2018</option>
+                    <option value="number">2017</option>
+                    <option value="number">2016</option>
+                    <option value="number">2015</option>
+                    <option value="number">2014</option>
+                    <option value="number">2013</option>
+                    <option value="number">2012</option>
+                    <option value="number">2011</option>
+                    <option value="number">2010</option>
+                    <option value="number">2009</option>
+                    <option value="number">2008</option>
+                    <option value="number">2007</option>
+                    <option value="number">2006</option>
+                    <option value="number">2005</option>
+                    <option value="number">2004</option>
+                    <option value="number">2003</option>
+                    <option value="number">2002</option>
+                    <option value="number">2001</option>
+                    <option value="number">2000</option>
+                </select>
+                </label>    <br><br>
+                <label id="custom_gender_container">Gender ?
+                     <br> <label for="Male">Male</label> <input type="radio" id="Male" checked="checked" name="radio">
+                     <label for="female">Female</label> <input type="radio" id="female" checked="checked" name="radio">
+                     <label for="custom">Custom</label> <input type="radio" id="custom" checked="checked" name="radio">
+                </label><br>
+                <p>People who use our service may have uploaded your contact information to <br>Facebook. <a style="text-decoration:none;" href="#">Learn more</a></p><br>
+                <p>By clicking Sign Up, you have aggree to our <a style="text-decoration: none;" href="#">Terms, Privacy Policy</a> and <a style="text-decoration: none;" href="#">Cookies Policy.</a><br> You may receive SMS notifications from us and opt out at any time. </p><br>
+                <center><input type="submit" name="submit" value="Sign Up" style="background-color: green; color: white; width: 194px; height: 36px; border-style: none; border-radius: 5px;" >  </center>
+            </form>
+        </body>
+</html>
